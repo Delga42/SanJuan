@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:color="@color/orange_toolbar"
+        android:logo="@mipmap/ic_launcher"
+        android:background="@color/orange_toolbar"
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        />
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sliding_tabs"
+        style="@style/MyCustomTabLayout"
+        android:layout_width="match_parent"
+        android:background="@color/orange_pager"
+        android:elevation="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vpPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/button_goto_landing"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="000d"
+            android:elevation="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/pure_white"
+            android:onClick="openLandingPage"
+            android:background="@drawable/round_button_orange"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

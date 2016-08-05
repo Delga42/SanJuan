@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="myActionBarStyle" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="logo">@mipmap/ic_launcher</item>-->
+        <!--<item name="displayOptions">useLogo|showHome</item>-->
+    <!--</style>-->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/alpha_white</item>
+        <item name="tabIndicatorHeight">4dp</item>
+    </style>
+
+</resources>

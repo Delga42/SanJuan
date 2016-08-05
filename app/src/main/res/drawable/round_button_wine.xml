@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape  android:shape="oval">
+
+            <solid android:color="@color/wine_pager" />
+            <size
+                android:width="60dp"
+                android:height="60dp"/>
+
+        </shape>
+    </item>
+
+    <item android:bottom="3dp">
+
+        <shape  android:shape="oval">
+            <solid android:color="@color/wine_toolbar" />
+            <size
+                android:width="60dp"
+                android:height="60dp"/>
+        </shape>
+    </item>
+
+</layer-list>

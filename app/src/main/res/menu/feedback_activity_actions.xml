@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="@string/action_share"
+        myapp:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_send"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="@string/button_send"
+        myapp:showAsAction="always" />
+
+</menu>

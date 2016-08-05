@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--DO NOT TRANSLATE-->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="title_activity_feedback">FeedBackActivity</string>
+    <string name="title_activity_landing">LandingActivity</string>
+    <string name="preference_file_key">com.albait.programasanjuan.PREFERENCES_FILE</string>
+
+    <!--DO TRANSLATE: #########-->
+
+    <!--GENERIC STRINGS-->
+    <string name="app_name">" San Juan 2015"</string>
+    <string name="button_send">Enviar</string>
+    <string name="button_entrar">Entrar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_feedback">Sugerencias</string>
+    <string name="word_dias">días</string>
+    <string name="felices_fiestas">¡Felices fiestas!</string>
+    <string name="text_share_app">Estos Sanjuanes lleva siempre el programa de Fiestas en el bolsillo: https://play.google.com/store/apps/details?id=com.albaitdevs.programasanjuan</string>
+    <string name="word_share">Compartir en: </string>
+    <string name="word_feedback">Enviar sugerencia: </string>
+
+    <!--FEEDBACK ACTIVITY-->
+    <string name="feedback_title_toolbar">" Sugerencias"</string>
+    <string name="feedback_text">¡Ayúdanos a mejorar!</string>
+    <string name="feedback_explanation">Remítenos tus sugerencias utilizando el siguiente formulario: </string>
+    <string name="feedback_hint">Escribe aquí tu sugerencia</string>
+    <string name="feedback_email">mailto:albaitdevs+sugerencias@gmail.com</string>
+    <string name="feedback_subject">[App San Juan] Sugerencias</string>
+
+    <!--TITULOS CORTOS DE LOS DIAS-->
+    <string name="lacompra">LA COMPRA</string>
+    <string name="miercoles">MIÉRCOLES</string>
+    <string name="jueves">JUEVES</string>
+    <string name="viernes">VIERNES</string>
+    <string name="sabado">SÁBADO</string>
+    <string name="domingo">DOMINGO</string>
+    <string name="lunes">LUNES</string>
+
+    <!--TITULOS DE LOS DIAS-->
+    <string name="lacompra_titulo">" 14/06 - La Compra"</string>
+    <string name="miercoles_titulo">" 24/06 - Miércoles El Pregón"</string>
+    <string name="jueves_titulo">" 25/06 - Jueves la Saca"</string>
+    <string name="viernes_titulo">" 26/06 - Viernes de Toros"</string>
+    <string name="sabado_titulo">" 27/06 - Sábado Agés"</string>
+    <string name="domingo_titulo">" 28/06 - Domingo de Calderas"</string>
+    <string name="lunes_titulo">" 29/06 - Lunes de Bailas"</string>
+
+    <!-- SCHEDULES-->
+    <string name="lacompra_0000">Verbena</string>
+    <string name="lacompra_0000_detail">Verbena organizada por “Los Cuatros de  Cuadrilla” en la Plaza Herradores, con D. Móvil “Magnun”.</string>
+    <string name="lacompra_autobuses">Autobuses y guardacascos</string>
+    <string name="lacompra_autobuses_detail">Guardacascos en Valonsadero.\n\n Servicio de autobuses a Valonsadero: Parada en Soria: Avda. Duques de Soria Parada en Valonsadero: frente a la Casa del Guarda.</string>
+    <string name="lacompra_0800">Encierro</string>
+    <string name="lacompra_0800_detail">Encierro de los novillos en los corrales de Cañada Honda.</string>
+    <string name="lacompra_1700">La Compra</string>
+    <string name="lacompra_1700_detail">Salida de la comitiva oficial a las 17:00 desde la Plaza Mayor hacia el Monte Valonsadero.\n\nA continuación, tendrá lugar el festejo de La Compra con la suelta de los 12 toros. El regreso se efectuará alrededor de las 22:30 horas.</string>
+
+    <string name="miercoles_1800">Corrida de Rejones</string>
+    <string name="miercoles_1800_detail">Corrida de Rejones, en la que se lidiarán seis reses de la Ganadería de “Los Espartales” para los rejoneadores Pablo Hermoso de Mendoza, Andy Cartagena Y Leonardo Hernández.</string>
+    <string name="miercoles_2300">Pregón de Fiestas</string>
+    <string name="miercoles_2300_detail">Se dará lectura al Pregón de Fiestas, redactado por los Sres. Jurados de la Cuadrilla “La Mayor”, D. Franciso Javier Arigita Girbau y Dª Luisa Fernanda Soria Hernández.\n\nActo seguido tendrá lugar un desfile, formado por la Banda Municipal de Música de Soria, Jurados de Cuadrilla, Excmo. Ayuntamiento y Peñas Sanjuaneras, trasladándose a la Alameda de Cervantes donde se celebrará un Baile Público, amenizado por la Banda Municipal de Música.</string>
+    <string name="miercoles_2400">Verbenas</string>
+    <string name="miercoles_2400_detail">A las 24:00 horas: Verbenas organizadas por el Excmo. Ayuntamiento de Soria, en la Plaza Herradores con la Orquesta “Dominó”, en la Plaza San Clemente con la Orquesta “Don Blas”; y por la Peña “El Bullicio”, en la Plaza del Salvador con la Orquesta “Nueva Orfeo”.</string>
+
+    <string name="jueves_0930">Salida hacia Valonsadero</string>
+    <string name="jueves_0930_detail">Salida oficial hacia el Monte Valonsadero, partiendo la Comitiva desde la Plaza Mayor.</string>
+    <string name="jueves_1200">La Saca</string>
+    <string name="jueves_1200_detail">Recogida del ganado en Cañada Honda y traslado de los toros a la Vega de San Millán, señalándose aproximadamente las 14:30 horas para la salida de los toros hacia la Capital, por el camino marcado por la  Cámara Agraria Local.</string>
+    <string name="jueves_1830">Vaquillas</string>
+    <string name="jueves_1830_detail">En la Plaza de Toros se celebrará la tradicional “Suelta de Vaquillas” bajo la supervisión del Director de Lidia D. Enrique Martínez Zazo “Chapurra”.</string>
+    <string name="jueves_2030">Baile público</string>
+    <string name="jueves_2030_detail">Baile Público en la Plaza Mayor, amenizado por la Banda Municipal de Música.</string>
+    <string name="jueves_2400">Verbenas</string>
+    <string name="jueves_2400_detail">Verbenas organizadas por el Excmo. Ayuntamiento de Soria en la Plaza Herradores con la Orquesta ”Dominó”, en la Plaza San Clemente con la Orquesta “Don Blas”, y por la Peña “El Bullicio” y en la Plaza del Salvador con la Orquesta “Nueva Orfeo”.</string>
+
+    <string name="viernes_0800">Diana</string>
+    <string name="viernes_0800_detail">Diana floreada por las calles de las distintas Cuadrillas.</string>
+    <string name="viernes_1030">Novillada</string>
+    <string name="viernes_1030_detail">A las 10:30 horas se lidiarán seis novillos  correspondientes a las cuadrillas de: La Cruz y San Pedro, Santa Catalina, La Mayor, El Rosel y San Blas, Santiago y San Miguel, con erales de la Ganadería de “Arucci” por los novilleros: Daniel Araujo, Javier Orozco y Camilo Hurtado.</string>
+    <string name="viernes_1800">Novillada</string>
+    <string name="viernes_1800_detail">Se lidiarán seis novillos de las Cuadrillas de: San Juan, Santo Tomé, San Clemente y San Martín; San Esteban, El Salvador, Santa Bárbara y La Blanca, con los erales de la Ganadería de “Arucci” por los novilleros: Adrien Salenc, Márcos Pérez y Enrique Carmona.</string>
+    <string name="viernes_2400">Verbenas</string>
+    <string name="viernes_2400_detail">Verbenas organizadas por el Excmo. Ayuntamiento de Soria, en la Plaza del Salvador con la Orquesta “Nueva Orfeo” y por la Asociación de Hosteleros de Plaza Herradores en la Plaza Herradores con la Orquesta “Tritón” y por “los Bares del Tubo” en la Plaza San Clemente con la Orquesta “Origen”.</string>
+
+    <string name="sabado_0800">Diana</string>
+    <string name="sabado_0800_detail">Diana floreada por las calles de las distintas Cuadrillas.</string>
+    <string name="sabado_0900">Reparto de la tajada</string>
+    <string name="sabado_0900_detail">Reparto de la tajada en crudo en los locales de las doce Cuadrillas para todos los vecinos que hayan entrado en Fiestas.</string>
+    <string name="sabado_1300">Dulzaineros y pasacalles</string>
+    <string name="sabado_1300_detail">Concentración de Dulzaineros y Cuadrillas en la Plaza del Olivo y Pasacalles hasta el Monumento a los “Autores de las Canciones Sanjuaneras” en la Alameda de Cervantes organizada por la Asociación Jurados de Cuadrilla.</string>
+    <string name="sabado_1800">Los Agés</string>
+    <string name="sabado_1800_detail">Se celebrarán los Agés o subastas en los locales de las Doce Cuadrillas.</string>
+    <string name="sabado_1800_corrida">Corrida de Toros</string>
+    <string name="sabado_1800_corrida_detail">Corrida de Toros en la que se lidiarán seis reses de la Ganadería de “El Torreón” para los diestros Sebastián Castella, Miguel Ángel Perera y Martín Escudero.</string>
+    <string name="sabado_2300">Fuegos artificiales</string>
+    <string name="sabado_2300_detail">Quema de la primera colección de Fuegos Artificiales en la Alameda de Cervantes.</string>
+    <string name="sabado_2400_baile">Baile Tradicional</string>
+    <string name="sabado_2400_baile_detail">Tradicional baile, organizado por cada una de las Cuadrillas.</string>
+    <string name="sabado_2400">Verbenas</string>
+    <string name="sabado_2400_detail">Desde las 24:00 y hasta las 5:00 horas, verbenas organizadas por el Excmo. Ayuntamiento de Soria, en la Plaza Mayor con la Orquesta “Don Blas”, en la Plaza Herradores con la Orquesta “Colores”, y en la Plaza San Clemente con la Orquesta “Acuarela”.</string>
+
+    <string name="domingo_0700">Diana</string>
+    <string name="domingo_0700_detail">Diana floreada por las calles de las distintas Cuadrillas.</string>
+    <string name="domingo_0900_tajada">Reparto de La Tajada</string>
+    <string name="domingo_0900_tajada_detail">Reparto de pan, vino, chorizo, huevo y tajada cocida en los locales de las doce Cuadrillas, para todos los vecinos que hayan entrado en fiestas.</string>
+    <string name="domingo_1100">Las Calderas</string>
+    <string name="domingo_1100_detail">A las 11:00 horas, desfile de las Cuadrillas con sus Calderas desde la Plaza Mayor a la Alameda de Cervantes, donde se procederá a su bendición. Seguidamente se efectuará la tradicional “prueba de Calderas” por Autoridades, Ayuntamiento e Invitados. Las “Calderas” serán expuestas al público en el Patio de Columnas del Excmo. Ayuntamiento.</string>
+    <string name="domingo_1230">Concierto de la Banda de Música</string>
+    <string name="domingo_1230_detail">En la Alameda de Cervantes. Concierto de Canciones Sanjuaneras, por la Banda Municipal de Música.</string>
+    <string name="domingo_1900">Corrida de Toros</string>
+    <string name="domingo_1900_detail">Corrida de Toros en la que se lidiarán seis reses de la Ganadería de “Adolfo Martín” para los diestros Pepe Moral, Juan del Álamo y Borja Jimenez.</string>
+    <string name="domingo_2400">Verbenas</string>
+    <string name="domingo_2400_detail">Verbenas organizadas por el Excmo. Ayuntamiento de Soria en la Plaza del Salvador con la Orquesta “Nueva Orfeo”, por la Asociación de Hosteleros de Plaza Herradores en la Plaza Herradores con la Orquesta “Pensylvania” y por “los Bares del Tubo” en la Plaza San Clemente con la Orquesta “Huella”.</string>
+
+    <string name="lunes_0800">Diana</string>
+    <string name="lunes_0800_detail">Diana floreada por las calles de las distintas Cuadrillas.</string>
+    <string name="lunes_1030">Procesión</string>
+    <string name="lunes_1030_detail">Desde la Plaza Mayor, Procesión de los Santos Titulares de las Cuadrillas hasta la Ermita de Nuestra Señora de la Soledad, en la cual se celebrará la Santa Misa regresando la procesión al Excmo. Ayuntamiento donde rendirán tributo a Nuestra Señora la Virgen de la Blanca efectuándose a continuación el recorrido de los Santos Titulares por sus respectivos barrios.</string>
+    <string name="lunes_1700">Las Bailas</string>
+    <string name="lunes_1700_detail">Desfile de la Banda Municipal de Música desde la Plaza Mariano Granados a la Plaza Mayor anunciando la salida a la Pradera de San Polo, en la que tendrá lugar la tradicional fiesta de "Las Bailas".</string>
+    <string name="lunes_2230">Desfile y Fuegos Artificiales</string>
+    <string name="lunes_2230_detail">Desfile de la Banda Municipal de Música y Peñas Sanjuaneras desde la Plaza Mayor hasta la Alameda de Cervantes.\n\nPosteriormente se quemará la última colección de Fuegos Artificiales.</string>
+    <string name="lunes_2400">Adiós adiós San Juan</string>
+    <string name="lunes_2400_detail">(Aproximadamente) A las 24:00 horas desde la Alameda de Cervantes, la Banda Municipal de Música iniciará el desfile hacia la Plaza Mayor para despedir las Fiestas con el “Adiós, Adiós San Juan”; concluyendo el acto con una “Traca Luminosa”.</string>
+    <string name="lunes_2400_verbenas">Verbenas</string>
+    <string name="lunes_2400_verbenas_detail">Finalizado el “Adiós, Adiós San Juan”, verbenas organizadas por la Asociación de Hosteleros de la Plaza de Herradores en Plaza Herradores con  D. Móvil “Mágnun” y por “los Bares del Tubo” en la Plaza San Clemente con Disco Móvil.</string>
+
+    <!--PLACES-->
+    <string name="place_plazadetoros">Plaza de Toros</string>
+    <string name="place_plazamayor">Plaza Mayor</string>
+    <string name="place_plazasdelaciudad">Varias plazas de la ciudad</string>
+    <string name="place_bailas">Mariano Granados / San Polo</string>
+    <string name="place_lasaca">Valonsadero</string>
+    <string name="place_callesdelaciudad">Calles de la ciudad</string>
+    <string name="place_localesdecuadrilla">Locales de Cuadrilla</string>
+    <string name="place_plazadelolivo">Plaza del Olivo</string>
+    <string name="place_dehesa">Alameda de Cervantes</string>
+    <string name="place_plazamayor_alameda">Plaza Mayor / Alameda</string>
+    <string name="place_lacompra">Soria / Valonsadero</string>
+    <string name="place_valonsadero">Valonsadero</string>
+    <string name="place_plazaherradores">Plaza Herradores</string>
+
+
+
+
+    //NEW
+    <string name="title_activity_map">MyMapActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_analytics">AnalyticsActivity</string>
+    <string name="google_play_services_not_installed">Puedes instalar o actualizar los Servicios de Google Play para poder ver el mapa dentro de la aplicación.</string>
+    <string name="word_vega_san_millan">Vega de San Millán</string>
+    <string name="word_cuadrilla_santotome">Santo Tomé, San Clemente y San Martín</string>
+    <string name="word_cuadrilla_santabarbara">Santa Bárbara</string>
+
+</resources>

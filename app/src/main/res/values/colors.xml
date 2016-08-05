@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="default_toolbar" type="color">#1CC7A8</item>
+    <item name="default_pager" type="color">#7FC7BA</item>
+
+    <item name="orange_toolbar" type="color">#FF6200</item>
+    <item name="orange_pager" type="color">#FF914D</item>
+
+    <item name="wine_toolbar" type="color">#940014</item>
+    <item name="wine_pager" type="color">#9E2838</item>
+
+    <item name="blue_toolbar" type="color">#0000FF</item>
+    <item name="blue_pager" type="color">#4D4DFF</item>
+
+    <item name="yellow_toolbar" type="color">#EDED32</item>
+    <item name="yellow_pager" type="color">#CFCF00</item>
+
+    <item name="green_toolbar" type="color">#009C00</item>
+    <item name="green_pager" type="color">#36B536</item>
+
+    <item name="black_toolbar" type="color">#000000</item>
+    <item name="black_pager" type="color">#595959</item>
+
+    <color name="pure_white" type="color">#FFFFFF</color>
+    <color name="pure_black" type="color">#000000</color>
+    <color name="clickable_grey" type="color">#E3E3E3</color>
+
+    <!--ALPHA COLORS-->
+    <color name="alpha_black" type="color">#33000000</color>
+    <color name="alpha_white" type="color">#CCFFFFFF</color>
+    <color name="alpha_light_white" type="color">#66FFFFFF</color>
+
+    <color name="material_blue_500">#2196F3</color>
+
+    <color name="dark_green_toolbar">#1B5E20</color>
+    <color name="dark_green_pager">#43A047</color>
+
+
+
+</resources>

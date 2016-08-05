@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--LINEAR LAYOUT FOR MESSAGES AND BUTTON-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            >
+
+                <TextView
+                android:id="@+id/landing_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pure_black"
+                android:textSize="50dp"
+                android:text="Large Text"
+                android:elevation="10dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/landing_seconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="30dp"
+                android:text="Large Text"
+                android:textColor="@color/pure_black"
+                android:layout_gravity="center"
+                android:layout_margin="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:id="@+id/landing_button"
+                android:text="@string/button_entrar"
+                android:elevation="10dp"
+                android:onClick="closeLandingPage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/round_button_dark_green"
+                android:textColor="@color/pure_white"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!--RELATIVE LAYOUT FOR ANIMATIONS-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            />
+
+        <TextView
+            android:id="@+id/landing_animation_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="150dp"
+            android:text="Days"
+            android:textColor="@color/alpha_black"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/landing_animation_seconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Seconds"
+            android:paddingTop="0dp"
+            android:textColor="@color/alpha_black"
+            android:layout_marginBottom="108dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/landing_animation_seconds_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Seconds"
+            android:textColor="@color/alpha_black"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/landing_animation_seconds"
+            android:layout_alignStart="@+id/landing_animation_seconds"
+            android:layout_marginTop="107dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
